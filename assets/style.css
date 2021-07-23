@@ -1,3 +1,53 @@
-main {
-    background: url(photo-1558383745-6274e5c505c5.jpg);
+body{
+    margin: 0;
+    font-family: 'DM Sans', sans-serif;
 }
+
+
+#topMenu{
+    display:flex;
+    
+    margin:0;
+}
+#topMenu li{
+    color:#000;
+    text-decoration: none;
+    display:block;
+    padding:15px;
+}
+#topMenu li:first-child{
+    margin-right: auto;
+}
+
+.section1{
+    display:flex;
+    height:100vh;
+    background-image: url(./img/photo-1558383745-6274e5c505c5.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: inset 0px 4px 0px 1300px rgba(0, 0, 0, 0.39);
+    
+}
+.centralize{
+    margin-top: 8rem;
+    margin-left: 10rem;
+    text-align:left;
+    color:#fff;
+}
+.centralize h1, p{
+    margin:0;
+    font-size: 48px;
+}
+.centralize p{
+    margin:0;
+    font-size:26px;
+}
+.centralize .box-img{
+    height:85px;
+    width: 160px;
+}
+
+ footer .copyright{
+     text-align:center;
+     justify-content: center;
+ }
