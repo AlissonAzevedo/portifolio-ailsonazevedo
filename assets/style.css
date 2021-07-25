@@ -65,10 +65,12 @@ body{
 
 .text-section{
     padding-top: 0;
-    text-align: center;
+    text-align: left;
     margin-top: 50px;
     font-size: 24px;
     color: #000;
+    padding-right: 4rem;
+    padding-bottom: 6rem;
     
 }
 
@@ -94,6 +96,7 @@ body{
     width:500px;
     height:500px;
     padding-right: 4rem;
+    
 }
 
 .text-section3{
