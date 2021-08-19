@@ -16,20 +16,6 @@ header a:hover{
     text-decoration: none;
 }
 
-header .menu--icon{
-    width: 18px;
-    height: 16px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    cursor: pointer;
-}
-
-header .menu--icon div{
-    height: 2px;
-    background-color: #fff;
-}
-
 #topMenu{
     display:flex;
     margin:0;
