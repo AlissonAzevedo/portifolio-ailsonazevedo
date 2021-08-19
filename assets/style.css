@@ -7,6 +7,10 @@ main{
     background-color: #131313;
 }
 
+html {
+    scroll-behavior: smooth;
+ }
+
 header a{
     cursor: pointer;
     color: #fff;
@@ -16,20 +20,20 @@ header a:hover{
     text-decoration: none;
 }
 
-#topMenu{
+.topMenu{
     display:flex;
     margin:0;
     position: fixed;
     
 }
-#topMenu li{
+.topMenu li{
     color:#fff;
     text-decoration: none;
     display:block;
     padding:15px;
     cursor: pointer;
 }
-#topMenu li:first-child{
+.topMenu li:first-child{
     margin-right: 1000px;
     
     
