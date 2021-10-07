@@ -1,6 +1,7 @@
 body{
     margin: 0;
     font-family: 'DM Sans', sans-serif;
+    
 }
 main{
     margin:0;
@@ -33,6 +34,7 @@ header a:hover{
     padding:15px;
     cursor: pointer;
 }
+
 .topMenu li:first-child{
     margin-right: 1000px;
     
@@ -143,6 +145,7 @@ header a:hover{
     text-align: center;
     background-color: #131313;
     height:100vh;
+    
 
     
 }
@@ -163,7 +166,7 @@ header a:hover{
 }
 
 .video-section4 td{
-    display: inline-block;   
+    display: inline;   
     padding: 2rem;
 }
 
@@ -173,3 +176,4 @@ header a:hover{
      text-align:center;
      justify-content: center;
  }
+ 
